@@ -8,8 +8,8 @@ public class DiceUser {
 	}
 	public static void main(String[] args) {
 		TripletOfDice res=rollOnce();
-		System.out.println("the number on the die 1 is "+res.getfirstDie());
-		System.out.println("the number on the die 2 is "+res.getSecondDie());
-		System.out.println("the number on the die 3 is "+res.getThirdDie());
+		System.out.println("The die number 1 is a "+res.getfirstDie());
+		System.out.println("The die number 1 is a "+res.getSecondDie());
+		System.out.println("The die number 1 is a "+res.getThirdDie());
 	}
 }
